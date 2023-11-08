@@ -71,3 +71,15 @@ bool equilatero(double a, double b, double c)
   else
     return false;
 }
+
+void imprimir_arreglo(int a[], int n)
+{
+  for(int i=0; i<n; i++)
+    cout << a[i] << " ";
+}
+
+void imprimir_vector(vector<int> &v)
+{
+  for(int i=0; i<v.size(); i++)
+    cout << v[i] << " ";
+}

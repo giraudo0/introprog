@@ -3,6 +3,7 @@
 // línea anterior evita duplicidad de código
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 // Suma de dos números reales:
@@ -40,3 +41,9 @@ double perim_rect(double a, double b);
 
 // Si un triángulo es equilátero:
 bool equilatero(double a, double b, double c);
+
+// Imprimir elementos de un arreglo:
+void imprimir_arreglo(int a[], int n);
+
+// Imprimir elementos de un vector:
+void imprimir_vector(vector<int> &v);

@@ -13,9 +13,11 @@ int main(void){
   cout << "6) ej06medpar" << endl;
   cout << "7) ej07mate1" << endl;
   cout << "8) ej08mate2" << endl;
+  cout << "9) ej09refvec" << endl;
 
   int op = 0;
   cout << " > "; cin >> op;
+  cout << endl;
 
   switch(op){
     case 0:
@@ -44,6 +46,9 @@ int main(void){
       break;
     case 8:
       ej08mate2();
+      break;
+    case 9:
+      ej09refvec();
       break;
     default:
       cout << "Opción incorrecta" << endl;
