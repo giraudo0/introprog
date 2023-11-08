@@ -8,8 +8,8 @@ Introducción a la Programación
 
 ## Compilar y ejecutar
 
-Para compilar y ejecutar ejecutar el comando
+Para compilar y ejecutar:
 compilar.sh
 
-Para ejecutar solamente ejecutar el comando
+Para ejecutar solamente:
 ./bin/proyecto1
