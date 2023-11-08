@@ -72,12 +72,17 @@ bool equilatero(double a, double b, double c)
     return false;
 }
 
+/* Los arreglos siempre se pasan por referencia, por lo que no es
+ * necesario usar el operador '&'. El puntero apunta al primer
+ * elemento del arreglo: */
 void imprimir_arreglo(int a[], int n)
 {
   for(int i=0; i<n; i++)
     cout << a[i] << " ";
 }
 
+/* Los vectores se comportan como otras variables, por lo que se les
+ * antepone el operador '&': */
 void imprimir_vector(vector<int> &v)
 {
   for(int i=0; i<v.size(); i++)
