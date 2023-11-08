@@ -88,3 +88,24 @@ void imprimir_vector(vector<int> &v)
   for(int i=0; i<v.size(); i++)
     cout << v[i] << " ";
 }
+
+double notas_media_c(double *a)
+{
+  double med = 0; // media
+  for(int i=0; i<10; i++)
+    /* Los corchetes siguientes implican que se apunta al
+     * elemento 'i' correspondiente del arreglo, por lo que 'a'
+     * no va antecedido por un asterisco: */
+    med += a[i];
+  med /= 10;
+  return med;
+}
+
+double notas_media_cpp(vector<double> &vec)
+{
+  double med = 0; // media
+  for(int i=0; i<10; i++)
+    med += vec[i];
+  med /= 10;
+  return med;
+}

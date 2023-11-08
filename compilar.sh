@@ -11,6 +11,7 @@ ejercicios/ej06medpar.cpp \
 ejercicios/ej07mate1.cpp \
 ejercicios/ej08mate2.cpp \
 ejercicios/ej09refvec.cpp \
+ejercicios/ej10estilos.cpp \
 -o bin/proyecto1
 echo "Ejecutando..."
 echo ""

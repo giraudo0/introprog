@@ -4,19 +4,20 @@
 
 int main(void){
   cout << "Elija un número de ejercicio:" << endl;
-  cout << "0) ej00suma" << endl;
-  cout << "1) ej01resta" << endl;
-  cout << "2) ej02operaciones" << endl;
-  cout << "3) ej03posit" << endl;
-  cout << "4) ej04medpos" << endl;
-  cout << "5) ej05par" << endl;
-  cout << "6) ej06medpar" << endl;
-  cout << "7) ej07mate1" << endl;
-  cout << "8) ej08mate2" << endl;
-  cout << "9) ej09refvec" << endl;
+  cout << " 0) ej00suma" << endl;
+  cout << " 1) ej01resta" << endl;
+  cout << " 2) ej02operaciones" << endl;
+  cout << " 3) ej03posit" << endl;
+  cout << " 4) ej04medpos" << endl;
+  cout << " 5) ej05par" << endl;
+  cout << " 6) ej06medpar" << endl;
+  cout << " 7) ej07mate1" << endl;
+  cout << " 8) ej08mate2" << endl;
+  cout << " 9) ej09refvec" << endl;
+  cout << "10) ej10estilos" << endl;
 
   int op = 0;
-  cout << " > "; cin >> op;
+  cout << "  > "; cin >> op;
   cout << endl;
 
   switch(op){
@@ -49,6 +50,9 @@ int main(void){
       break;
     case 9:
       ej09refvec();
+      break;
+    case 10:
+      ej10estilos();
       break;
     default:
       cout << "Opción incorrecta" << endl;

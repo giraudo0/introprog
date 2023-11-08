@@ -47,3 +47,9 @@ void imprimir_arreglo(int a[], int n);
 
 // Imprimir elementos de un vector:
 void imprimir_vector(vector<int> &v);
+
+// Estilo C:
+double notas_media_c(double *a);
+
+// Estilo C++:
+double notas_media_cpp(vector<double> &vec);
