@@ -49,7 +49,7 @@ void imprimir_arreglo(int a[], int n);
 void imprimir_vector(vector<int> &v);
 
 // Estilo C:
-double notas_media_c(double *a);
+double notas_media_c(double *a, int cant);
 
 // Estilo C++:
 double notas_media_cpp(vector<double> &vec);
