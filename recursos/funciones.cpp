@@ -109,3 +109,15 @@ double notas_media_cpp(vector<double> &vec)
   med /= vec.size();
   return med;
 }
+
+void multiplicar_arreglo(double *a, int tam, double fac)
+{
+  for(int i=0; i < tam; i++)
+    a[i] *= fac;
+}
+
+void multiplicar_vector(vector<double> &vec, double fac)
+{
+  for(int i=0; i < vec.size(); i++)
+    vec[i] *= fac;
+}

@@ -1,4 +1,5 @@
-/* Haga una función que imprima los elementos de un arreglo pasado como
+/* Punteros - Ejercicio 1:
+ * Haga una función que imprima los elementos de un arreglo pasado como
  * parámetro cumpliendo con los siguientes requerimientos.
  * 1. Use un arreglo tipo C. Sugerencia: pase además la cantidad de elementos del arreglo.
  * 2. Use un vector de la std.

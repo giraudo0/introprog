@@ -10,3 +10,4 @@ void ej07mate1(void);
 void ej08mate2(void);
 void ej09refvec(void);
 void ej10estilos(void);
+void ej11multip(void);

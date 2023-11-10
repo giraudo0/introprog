@@ -48,8 +48,14 @@ void imprimir_arreglo(int a[], int n);
 // Imprimir elementos de un vector:
 void imprimir_vector(vector<int> &v);
 
-// Estilo C:
+// Media de un arreglo (estilo C):
 double notas_media_c(double *a, int cant);
 
-// Estilo C++:
+// Media de un vector (etilo C++):
 double notas_media_cpp(vector<double> &vec);
+
+// Multiplicar elementos de un arreglo (estilo C):
+void multiplicar_arreglo(double *a, int tam, double fac);
+
+// Multiplicar elementos de un vector (etilo C++):
+void multiplicar_vector(vector<double> &vec, double fac);
