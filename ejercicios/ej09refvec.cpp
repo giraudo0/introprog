@@ -4,6 +4,7 @@
  * 1. Use un arreglo tipo C. Sugerencia: pase además la cantidad de elementos del arreglo.
  * 2. Use un vector de la std.
  * El arreglo y vector deben ser leídos desde teclado. */
+
 #include "../cabeceras/funciones.h"
 #include "../cabeceras/ejercicios.h"
 

@@ -1,5 +1,6 @@
 /* Cuadrado de un número, área de un círculo, pares entre 1 y n,
  * múltiplo de 5. */
+
 #include "../cabeceras/funciones.h"
 #include "../cabeceras/ejercicios.h"
 

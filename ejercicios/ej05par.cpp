@@ -1,4 +1,5 @@
-// Determinar si un número es positivo o no.
+/* Determinar si un número es positivo o no */
+
 #include "../cabeceras/funciones.h"
 #include "../cabeceras/ejercicios.h"
 

@@ -3,6 +3,7 @@
  * Elementos en un vector múltiplos de 5.
  * Perímetro de un rectángulo.
  * Si triángulo es equilátero. */
+
 #include "../cabeceras/funciones.h"
 #include "../cabeceras/ejercicios.h"
 

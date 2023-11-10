@@ -1,4 +1,5 @@
 /* Declaración de ejercicios como funciones (cabeceras) */
+
 void ej00suma(void);
 void ej01resta(void);
 void ej02operaciones(void);

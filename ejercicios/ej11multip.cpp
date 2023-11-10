@@ -7,7 +7,7 @@
  * un vector de c++ y un valor real y modifique este arreglo multiplicando
  * cada elemento por el valor real.
  * 3. Use ambas funciones en un programa. */
- 
+
 #include "../cabeceras/funciones.h"
 #include "../cabeceras/ejercicios.h"
 

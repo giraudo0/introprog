@@ -1,5 +1,6 @@
 /* Se entran por teclado 10 números y cuenta de cuantos números son positivos.
  * Media de los números positivos. */
+
 #include "../cabeceras/funciones.h"
 #include "../cabeceras/ejercicios.h"
 
