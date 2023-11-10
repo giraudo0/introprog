@@ -25,3 +25,4 @@ double notas_media_c(double *a, int cant);
 double notas_media_cpp(vector<double> &vec);
 void multiplicar_arreglo(double *a, int tam, double fac);
 void multiplicar_vector(vector<double> &vec, double fac);
+int maximo(vector<int> &vec, int max);

@@ -140,3 +140,12 @@ void multiplicar_vector(vector<double> &vec, double fac)
   for(int i=0; i < vec.size(); i++)
     vec[i] *= fac;
 }
+
+// Obtener el elemento máximo de un vector:
+int maximo(vector<int> &vec, int max)
+{
+  for(int i=0; i < vec.size(); i++)
+    if(vec[i] > max)
+      max = vec[i];
+  return max;
+}

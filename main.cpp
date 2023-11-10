@@ -17,6 +17,7 @@ int main(void){
   cout << " 9) ej09refvec" << endl;
   cout << "10) ej10estilos" << endl;
   cout << "11) ej11multip" << endl;
+  cout << "12) ej12max" << endl;
 
   int op = 0;
   cout << "  > "; cin >> op;
@@ -58,6 +59,9 @@ int main(void){
       break;
     case 11:
       ej11multip();
+      break;
+    case 12:
+      ej12max();
       break;
     default:
       cout << "Opción incorrecta" << endl;

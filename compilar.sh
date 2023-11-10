@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo "Compilando..."
 g++ main.cpp recursos/funciones.cpp \
 ejercicios/ej00suma.cpp \
@@ -13,6 +14,7 @@ ejercicios/ej08mate2.cpp \
 ejercicios/ej09refvec.cpp \
 ejercicios/ej10estilos.cpp \
 ejercicios/ej11multip.cpp \
+ejercicios/ej12max.cpp \
 -o bin/proyecto1
 echo "Ejecutando..."
 echo ""

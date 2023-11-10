@@ -12,3 +12,4 @@ void ej08mate2(void);
 void ej09refvec(void);
 void ej10estilos(void);
 void ej11multip(void);
+void ej12max(void);
